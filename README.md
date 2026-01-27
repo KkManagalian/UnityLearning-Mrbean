@@ -1,13 +1,13 @@
 # UnityLearning-Mrbean
 APJFIOHAJ)
 ** Daramais darbs: **
-- [ ] - UI button
-- [ ] - UI input field
-- [ ] - UI text 
-- [ ] - UI Image
-- [ ] - UI radio button
-- [ ] - UI Slider
+- [X] - UI button
+- [X] - UI input field
+- [X] - UI text 
+- [X] - UI Image
+- [X] - UI radio button
+- [X] - UI Slider
 - [ ] - Drag and drop
-- [ ] - Audio source
+- [X] - Audio source
 - [ ] - Riggid body un collider
 - [ ] - Projekta sagatavosanas Windows OS
