@@ -1,16 +1,26 @@
 fileFormatVersion: 2
-guid: ba853b3bbae35dc478cb5d3ec7717409
+guid: 74f8b4d56cb24724abef2f7c526fd9ca
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218050
+  packageName: 2D Simple UI Pack
+  packageVersion: 1.0
+  assetPath: Assets/OArielG/2DSimpleUIPack/Examples/Graphics/ui-small-icons.png
+  uploadId: 493490
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -241585908115105652
-    second: Bean (1)_0
+      213: -5390123095117124330
+    second: ui-small-icons_0
   - first:
-      213: -7872991270311474510
-    second: Bean (1)_1
+      213: -8880520576215733831
+    second: ui-small-icons_1
   - first:
-      213: 116784550653131261
-    second: Bean (1)_2
+      213: -3983950619504736678
+    second: ui-small-icons_2
+  - first:
+      213: -9176472066801411641
+    second: ui-small-icons_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -43,7 +53,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -52,12 +62,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -74,14 +84,14 @@ TextureImporter:
   ignorePngGamma: 0
   applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -91,10 +101,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -104,10 +114,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Android
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -117,10 +127,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: WebGL
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -132,67 +142,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bean (1)_0
+      name: ui-small-icons_0
       rect:
         serializedVersion: 2
-        x: 120
-        y: 108
-        width: 957
-        height: 1420
+        x: 0
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c881f0485e6b5acf0800000000000000
-      internalID: -241585908115105652
+      spriteID: 61d2ae36a9f6235b0800000000000000
+      internalID: -5390123095117124330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bean (1)_1
+      name: ui-small-icons_1
       rect:
         serializedVersion: 2
-        x: 578
-        y: 67
-        width: 102
-        height: 41
+        x: 16
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2ba455d07248db290800000000000000
-      internalID: -7872991270311474510
+      spriteID: 9b92d12469d02c480800000000000000
+      internalID: -8880520576215733831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bean (1)_2
+      name: ui-small-icons_2
       rect:
         serializedVersion: 2
-        x: 711
-        y: 60
-        width: 96
-        height: 40
+        x: 0
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: df9fee81ee6ee9100800000000000000
-      internalID: 116784550653131261
+      spriteID: a5609b9f40a26b8c0800000000000000
+      internalID: -3983950619504736678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui-small-icons_3
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9d107364f96a080800000000000000
+      internalID: -9176472066801411641
       vertices: []
       indices: 
       edges: []
@@ -211,9 +243,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bean (1)_0: -241585908115105652
-      Bean (1)_1: -7872991270311474510
-      Bean (1)_2: 116784550653131261
+      ui-small-icons_0: -5390123095117124330
+      ui-small-icons_1: -8880520576215733831
+      ui-small-icons_2: -3983950619504736678
+      ui-small-icons_3: -9176472066801411641
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

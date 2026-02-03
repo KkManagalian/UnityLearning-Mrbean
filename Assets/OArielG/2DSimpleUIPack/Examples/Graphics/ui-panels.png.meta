@@ -1,16 +1,32 @@
 fileFormatVersion: 2
-guid: ba853b3bbae35dc478cb5d3ec7717409
+guid: c902e08bd83e04947b6e8d7f31f385be
+AssetOrigin:
+  serializedVersion: 1
+  productId: 218050
+  packageName: 2D Simple UI Pack
+  packageVersion: 1.0
+  assetPath: Assets/OArielG/2DSimpleUIPack/Examples/Graphics/ui-panels.png
+  uploadId: 493490
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -241585908115105652
-    second: Bean (1)_0
+      213: 2193479657588290036
+    second: ui-frames_0
   - first:
-      213: -7872991270311474510
-    second: Bean (1)_1
+      213: -8929440768489705544
+    second: ui-frames_1
   - first:
-      213: 116784550653131261
-    second: Bean (1)_2
+      213: 2631046323181635569
+    second: ui-frames_2
+  - first:
+      213: 2976135448196196091
+    second: ui-frames_3
+  - first:
+      213: 4921545448054487618
+    second: ui-frames_4
+  - first:
+      213: 5136199020975286519
+    second: ui-frames_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -43,7 +59,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -52,12 +68,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -74,14 +90,14 @@ TextureImporter:
   ignorePngGamma: 0
   applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -91,10 +107,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -104,10 +120,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Android
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -117,10 +133,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: WebGL
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -132,67 +148,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bean (1)_0
+      name: ui-frames_0
       rect:
         serializedVersion: 2
-        x: 120
-        y: 108
-        width: 957
-        height: 1420
+        x: 0
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 2, z: 2, w: 3}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c881f0485e6b5acf0800000000000000
-      internalID: -241585908115105652
+      spriteID: 4f17894802ec07e10800000000000000
+      internalID: 2193479657588290036
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bean (1)_1
+      name: ui-frames_1
       rect:
         serializedVersion: 2
-        x: 578
-        y: 67
-        width: 102
-        height: 41
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 2, z: 2, w: 3}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2ba455d07248db290800000000000000
-      internalID: -7872991270311474510
+      spriteID: 8bfa7476ee0441480800000000000000
+      internalID: -8929440768489705544
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bean (1)_2
+      name: ui-frames_2
       rect:
         serializedVersion: 2
-        x: 711
-        y: 60
-        width: 96
-        height: 40
+        x: 64
+        y: 32
+        width: 31
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 2, z: 1, w: 3}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: df9fee81ee6ee9100800000000000000
-      internalID: 116784550653131261
+      spriteID: 1f7c6d8e0ba538420800000000000000
+      internalID: 2631046323181635569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui-frames_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 2, z: 2, w: 3}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6ae210c6b5d4920800000000000000
+      internalID: 2976135448196196091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui-frames_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 2, z: 2, w: 3}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a7a317287dc4440800000000000000
+      internalID: 4921545448054487618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui-frames_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 2, z: 2, w: 3}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8e0fcfbc1774740800000000000000
+      internalID: 5136199020975286519
       vertices: []
       indices: 
       edges: []
@@ -211,9 +293,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bean (1)_0: -241585908115105652
-      Bean (1)_1: -7872991270311474510
-      Bean (1)_2: 116784550653131261
+      ui-frames_0: 2193479657588290036
+      ui-frames_1: -8929440768489705544
+      ui-frames_2: 2631046323181635569
+      ui-frames_3: 2976135448196196091
+      ui-frames_4: 4921545448054487618
+      ui-frames_5: 5136199020975286519
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: ba853b3bbae35dc478cb5d3ec7717409
+guid: 390866d8d394175499c021fe04eea7f9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -241585908115105652
-    second: Bean (1)_0
-  - first:
-      213: -7872991270311474510
-    second: Bean (1)_1
-  - first:
-      213: 116784550653131261
-    second: Bean (1)_2
+      213: -2456958469626845507
+    second: Flag_of_Israel_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -132,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bean (1)_0
+      name: Flag_of_Israel_0
       rect:
         serializedVersion: 2
-        x: 120
-        y: 108
-        width: 957
-        height: 1420
+        x: 0
+        y: 0
+        width: 250
+        height: 182
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,52 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c881f0485e6b5acf0800000000000000
-      internalID: -241585908115105652
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bean (1)_1
-      rect:
-        serializedVersion: 2
-        x: 578
-        y: 67
-        width: 102
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2ba455d07248db290800000000000000
-      internalID: -7872991270311474510
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bean (1)_2
-      rect:
-        serializedVersion: 2
-        x: 711
-        y: 60
-        width: 96
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: df9fee81ee6ee9100800000000000000
-      internalID: 116784550653131261
+      spriteID: db621061a4127edd0800000000000000
+      internalID: -2456958469626845507
       vertices: []
       indices: 
       edges: []
@@ -201,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -210,10 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Bean (1)_0: -241585908115105652
-      Bean (1)_1: -7872991270311474510
-      Bean (1)_2: 116784550653131261
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
