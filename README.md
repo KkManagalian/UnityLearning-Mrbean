@@ -1,13 +1,18 @@
 # UnityLearning-Mrbean
-APJFIOHAJ)
-** Daramais darbs: **
+Mācibu darbs par unity
+## Daramais darbs:
 - [X] - UI button
 - [X] - UI input field
 - [X] - UI text 
 - [X] - UI Image
 - [X] - UI radio button
 - [X] - UI Slider
-- [ ] - Drag and drop
+- [X] - Drag and drop
 - [X] - Audio source
-- [ ] - Riggid body un collider
-- [ ] - Projekta sagatavosanas Windows OS
+- [X] - Riggid body un collider
+- [X] - Projekta sagatavosanas Windows OS
+## Pašdarītais:
+- [X] - Televizora ieslēgšana/islēgšana
+- [X] - Kanālu pārmaiņa
+- [ ] - Skaļuma pārvalde
+- [X] - Papildus animācija
