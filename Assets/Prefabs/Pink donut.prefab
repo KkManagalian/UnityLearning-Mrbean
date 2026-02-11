@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 607700599591110066}
   m_Layer: 5
   m_Name: Pink donut
-  m_TagString: Untagged
+  m_TagString: Doonut
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
