@@ -5,6 +5,8 @@ using UnityEngine;
 public class DonutDropper : MonoBehaviour
 {
     public GameObject[] donutPrefabs;
+    public GameObject[] DangerPrefabs;
+    public GameObject[] SpecialPrefabs;
     public float bakeInterval = 1.0f;
     float minPoz, maxPoz;
     Transform ovenTransform;
@@ -32,6 +34,14 @@ public class DonutDropper : MonoBehaviour
 
             int donutIndex = UnityEngine.Random.Range(0, donutPrefabs.Length);
             Instantiate(donutPrefabs[donutIndex], spawnPoz, Quaternion.identity, ovenTransform);
+
+            int chance = UnityEngine.Random.Range(1, 100);
+
+            if (chance==67)
+            {
+                Instantiate(DangerPrefabs[1], spawnPoz, Quaternion.identity, ovenTransform);
+            }
+
             yield return new WaitForSeconds(bakeInterval);
         }
     }
