@@ -25,8 +25,8 @@ public class DonutDropper : MonoBehaviour
     IEnumerator Bake()
     {
         while (true){
-            minPoz = ovenTransform.position.x - 40.0f;
-            maxPoz = ovenTransform.position.x + 40.0f;
+            minPoz = ovenTransform.position.x - 1.0f;
+            maxPoz = ovenTransform.position.x + 1.0f;
             float randPoz = UnityEngine.Random.Range(minPoz, maxPoz);
             Vector2 spawnPoz = new Vector2(randPoz, ovenTransform.position.y);
 

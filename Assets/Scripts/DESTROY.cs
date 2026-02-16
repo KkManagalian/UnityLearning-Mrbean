@@ -19,7 +19,7 @@ public class DESTROY : MonoBehaviour
             Destroy(collision.gameObject);
             count++;
             sfx.PlaySFX(0);
-            counterText.text="Donuts destroyed:\n"+count;
+            counterText.text="Virtuli izlaisti:\n"+count;
         }
     }
 }

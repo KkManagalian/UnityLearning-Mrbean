@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class ObjectCatch : MonoBehaviour
@@ -6,6 +7,8 @@ public class ObjectCatch : MonoBehaviour
     public float massIncrease = 1f;
     private Rigidbody2D rb;
     OmegaSounds sfx;
+    public TMP_Text counterText;
+    private int count = 0;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -24,14 +27,16 @@ public class ObjectCatch : MonoBehaviour
         {
             sfx.PlaySFX(2);
             Destroy(collision.gameObject);
-            transform.localScale += new Vector3(sizeIncrease, sizeIncrease, 0);
+            transform.localScale += new Vector3(sizeIncrease,0 , 0);
             rb.mass += massIncrease;
+            count++;
+            counterText.text = "Virtuli apesti:\n" + count;
         }
-    }
+        else if(collision.CompareTag("METEOR")){
+            sfx.PlaySFX(0);
+            transform.localScale += new Vector3(0, sizeIncrease, 0);
+            Destroy(collision.gameObject);
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        }
     }
 }
