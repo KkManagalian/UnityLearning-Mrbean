@@ -35,7 +35,7 @@ public class ObjectCatch : MonoBehaviour
             count++;
             counterText.text = "Virtuli apesti:\n" + count;
         }else if(collision.CompareTag("METEOR")){
-            if (health==0)
+            if (health==1)
             {
             #if UNITY_EDITOR
                 // Stops Play Mode in the Unity Editor
@@ -47,12 +47,14 @@ public class ObjectCatch : MonoBehaviour
             }
             sfx.PlaySFX(4);
             health--;
+            HealthText.text = "Dziviba: " + health;
             transform.localScale += new Vector3(0, sizeIncrease, 0);
             Destroy(collision.gameObject);
 
         }else if(collision.CompareTag("Special")){
             sfx.PlaySFX(2);
             health++;
+            counterText.text = "Dziviba:\n" + health;
             Destroy(collision.gameObject);
         }
     }
