@@ -11,8 +11,13 @@ Mācibu darbs par unity
 - [X] - Audio source
 - [X] - Riggid body un collider
 - [X] - Projekta sagatavosanas Windows OS
-## Pašdarītais:
+## Pašdarītais televizors:
 - [X] - Televizora ieslēgšana/islēgšana
 - [X] - Kanālu pārmaiņa
 - [ ] - Skaļuma pārvalde
 - [X] - Papildus animācija
+## Pašdarītais MrBean Virtuļ ķērājs:
+- [X] - Dzīvibas sistēma
+- [X] - Punktu sistēma (Virtuļi apēsti)
+- [X] - Laika skaitītājs
+- [X] - Īpaši kritēji
