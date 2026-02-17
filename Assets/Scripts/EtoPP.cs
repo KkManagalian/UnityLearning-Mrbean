@@ -6,7 +6,7 @@ public class EtoPP : MonoBehaviour
 {
 
     private string text;
-    private string[] input = {"FUCK", "SHIT", "AHHHHH"};
+    private string[] input = {"OPA", "NU", "AHHHHH"};
     private int rand;
     public GameObject inputField;
     public GameObject textField;

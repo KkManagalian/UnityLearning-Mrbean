@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Flag_of_Israel_0: -2456958469626845507
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

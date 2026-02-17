@@ -410,7 +410,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MrBean-lookingdown_0: 4082217750054244836
+      MrBean-lookingdown_1: 8386082317763122129
+      MrBean-lookingdown_10: 7661565418507185598
+      MrBean-lookingdown_2: -1231852582458984372
+      MrBean-lookingdown_3: 3263483875221304705
+      MrBean-lookingdown_4: 50603660521369603
+      MrBean-lookingdown_5: 5920586574567051817
+      MrBean-lookingdown_6: 4955528242727031350
+      MrBean-lookingdown_7: 17846351328065049
+      MrBean-lookingdown_8: -5781348463890483482
+      MrBean-lookingdown_9: -7993438981443511385
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

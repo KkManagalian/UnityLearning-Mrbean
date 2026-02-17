@@ -18,7 +18,7 @@ public class DESTROY : MonoBehaviour
         {
             Destroy(collision.gameObject);
             count++;
-            sfx.PlaySFX(0);
+            sfx.PlaySFX(5);
             counterText.text="Virtuli izlaisti:\n"+count;
         }
     }
